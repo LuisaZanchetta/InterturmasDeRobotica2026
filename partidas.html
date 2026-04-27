@@ -145,9 +145,9 @@
       });
 
     } catch (erro) {
-      console.error("Erro ao carregar dados do Mapa de Rodadas:", erro);
-      alert("Erro ao carregar dados. Verifique o link da planilha.");
-    }
+        console.error("ERRO REAL:", erro);
+        alert("Erro: " + erro.message);
+      }
   }
 
   function mostrarResultado(botao) {
